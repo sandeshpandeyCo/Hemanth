@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function openInNewTab(obj)
+           {
+                //alert(obj.value);
+                var win = window.open(obj.value, '_blank');
+                win.focus();
+           }
+        </script>
+        <style>
+            body {
+  background-image: url('silk.jpeg');
+                 }
+            h1
+            {
+                color:rgba(165, 42, 42, 0.981);
+                text-align:center;
+            }
+            .a{
+                color: rgb(14, 57, 228);
+                text-align: center;
+                border: 4px solid brown;
+                width: 200px;
+                height: 40px;
+            }
+            .container {
+            width: 20%;
+            border: 3px solid rgba(2, 142, 2, 0.342); 
+            color: blueviolet;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            }
+        </style>
+        <h1>
+        <img src="veltechtag1.jpeg" alt="veltech" width="400" height="100">
+          <marquee behavior=scroll direction="left" scrollamount="15">Previous years Semister question papers department wise</marquee>
+        </h1>
+    </head>
+<body>
+    <br>
+    <div class="container">
+        <h1>CSE</h1>
+        <select id="mySelect1" class="a" onchange="openInNewTab(this);">
+            <option value="*"disabled selected>Please select...</option>
+            <option value="sem1.html">SEM 1.1</option>
+            <option value="2">SEM 1.2</option>
+            <option value="3">SEM 2.1</option>
+            <option value="4">SEM 2.2</option>
+            <option value="5">SEM 3.1</option>
+            <option value="6">SEM 3.2</option>
+        </select>
+        </div><br>
+    <div class="container">
+        <h1>IT</h1>
+        <select id="mySelect2" class="a" onchange="openInNewTab(this);">
+            <option value="*"disabled selected>Please select...</option>
+            <option value="sem1.html">SEM 1.1</option>
+            <option value="8">SEM 1.2</option>
+            <option value="9">SEM 2.1</option>
+            <option value="sem2.html">SEM 2.2</option>
+            <option value="11">SEM 3.1</option>
+            <option value="12">SEM 3.2</option>
+        </select>
+        </div><br>
+        <div class="container">
+            <h1>ECE</h1>
+            <select id="mySelect3" class="a" onchange="openInNewTab(this);">
+                <option value="*"disabled selected>Please select...</option>
+                <option value="sem1.html">SEM 1.1</option>
+                <option value="14">SEM 1.2</option>
+                <option value="15">SEM 2.1</option>
+                <option value="16">SEM 2.2</option>
+                <option value="17">SEM 3.1</option>
+                <option value="18">SEM 3.2</option>
+            </select>
+            </div> <br>
+            <div class="container">
+                <h1>EEE</h1>
+                <select id="mySelect4" class="a" onchange="openInNewTab(this);">
+                    <option value="*"disabled selected>Please select...</option>
+                    <option value="sem1.html">SEM 1.1</option>
+                    <option value="20">SEM 1.2</option>
+                    <option value="21">SEM 2.1</option>
+                    <option value="22">SEM 2.2</option>
+                    <option value="23">SEM 3.1</option>
+                    <option value="24">SEM 3.2</option>
+                </select>
+                </div><br>
+                <div class="container">
+                    <h1>CIVIL</h1>
+                    <select id="mySelect5" class="a" onchange="openInNewTab(this);">
+                        <option value="*"disabled selected>Please select...</option>
+                        <option value="sem1.html">SEM 1.1</option>
+                        <option value="26">SEM 1.2</option>
+                        <option value="27">SEM 2.1</option>
+                        <option value="28">SEM 2.2</option>
+                        <option value="29">SEM 3.1</option>
+                        <option value="30">SEM 3.2</option>
+                    </select>
+                    </div><br>
+                    <div class="container">
+                        <h1>BIO TECH</h1>
+                        <select id="mySelect6" class="a" onchange="openInNewTab(this);">
+                            <option value="*"disabled selected>Please select...</option>
+                            <option value="sem1.html">SEM 1.1</option>
+                            <option value="32">SEM 1.2</option>
+                            <option value="33">SEM 2.1</option>
+                            <option value="34">SEM 2.2</option>
+                            <option value="35">SEM 3.1</option>
+                            <option value="36">SEM 3.2</option>
+                        </select>
+                        </div><br>
+                        <div class="container">
+                            <h1>BIO MEDICAL</h1>
+                            <select id="mySelect7" class="a" onchange="openInNewTab(this);">
+                                <option value="*"disabled selected>Please select...</option>
+                                <option value="sem1.html">SEM 1.1</option>
+                                <option value="38">SEM 1.2</option>
+                                <option value="39">SEM 2.1</option>
+                                <option value="40">SEM 2.2</option>
+                                <option value="41">SEM 3.1</option>
+                                <option value="42">SEM 3.2</option>
+                            </select>
+                            </div><br>
+</body>
+</html>
